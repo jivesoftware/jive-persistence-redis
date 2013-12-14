@@ -1,0 +1,33 @@
+{
+  "name": "jive-persistence-redis",
+  "description": "Redis persistence strategy for jive-sdk",
+  "version": "0.0.1",
+  "main": "./redis.js",
+  "author": "Jive Software <jivedev@jivesoftware>",
+  "dependencies": {
+    "q": "0.9.3",
+    "jive-sdk": "*",
+    "flat": "*",
+    "stream-array": "*",
+    "redis" : "0.8.4"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "contributors": [
+    "Aron Racho <aron.racho@jivesoftware.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jivesoftware/jive-persistence-redis"
+  },
+  "keywords": [
+    "jive",
+    "framework",
+    "app",
+    "purposeful_places",
+    "api"
+  ]
+}
